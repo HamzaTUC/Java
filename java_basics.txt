@@ -1,0 +1,161 @@
+
+public class multip {
+
+		public static void main (String [] args)
+		{loop( 5);
+addi (10,5);
+float eg= sub();
+System.out.println(eg);
+mult(6,8);}
+
+		static void addi (int a, int b) {
+		System.out.println(a+b);{
+if (b>0)
+System.out.println("noch "+ a +" D:L ");
+a--;}}
+
+		static void loop (int r) {
+			
+			if (r>0) { 
+				System.out.println( "noch  " + r + "  mals" ); 
+				r--;}
+			}
+		
+static int sub () {
+	int c, d;
+	c=0;
+	d=3;
+	return c-d;};
+	static void mult(int a , int b) {
+	
+	System.out.println(a*b);}
+}
+
+*******
+
+ARRAY
+
+public class Array {
+	public static void main (String [] r) {
+
+		String a = "das";// als erstes.
+		
+		String b = "ist";
+		/* hier muss ich erschene 
+		und calclaze 
+		unf  
+		unf zu witer */
+	String c = "cool";
+	String acb=a+" " +c + " "+ b;
+	int lange=a.length();
+	
+	System.out.println(acb);
+	System.out.print("lange =" + lange);
+	int[]Spieler =new int [3];
+
+	for  (int d=0; d<Spieler.length;)
+	{Spieler [d]=d+1;
+	d++;}	
+		
+		for (int num:Spieler)
+				
+		System.out.println("Spieler " + num + " ist im Spiel");
+		int e,f;
+		
+		e=2;
+		f=4;
+		
+		System.out.println(e*f);
+	}}
+*************
+DO WHILE 
+
+public class check {
+
+		public static void main (String [] args) {
+		int a =4;
+		int b =2 ;
+		while   (a>b) {
+		System.out.print(a);
+		a--;
+		
+		System.out.println ("stop doing it");
+		}
+		int d,f,e;
+		d=0;
+		f=7;
+		e=0;
+				while (d<3)
+{e=e+f;
+				d++;
+				System.out.println(e);
+}
+				int wartezeit =3;
+				do {
+					System.out.println("daten werden geladen ");
+					wartezeit--;}
+				while (wartezeit>0) ;
+				
+				
+
+}}
+
+**********
+
+COMPUTER 
+
+
+public class computer {
+String pro;
+String gk;
+int sk;
+float preis;
+computer (String dpro,String dgk, int dsk, float dpreis){
+pro= dpro;
+gk=dgk;
+sk= dsk;
+preis= dpreis;}
+void datenplatt() {
+System.out.print ("processor:"+ pro);
+System.out.print (gk);
+System.out.print (sk);
+System.out.print (preis);
+}
+	}
+******************
+class Account {
+int accountnb;
+String accountnm;
+float amount ;
+void insert (int b, String n, am){
+accountnb = b;
+accountnm = n;
+amount = am;
+}
+void diposit (float am){
+amount = amount + am;
+System.out.println(am + "ist depsosited ");
+}
+void withdraw (float am){
+if (amount<am){
+System.out.println("balance ist niedrig ");}
+else {amount = amount - am;
+System.out.println(am+ "ist withdrwn ");}
+}
+void checkB() {System.out.println("balance ist " + amount );}
+
+void dispalyI() {System.out.println(accountb+ "accountn" + amount );
+}
+class TestStudent4{  
+public static void main(String[] args){  
+Account hz = Account();
+hz.insert(114033, Hamza,3000);
+hz.display();
+hz.diposit(1500);
+hz.checkB();
+hz.withdraw(500);
+hz.checkB();
+}
+}
+
+
